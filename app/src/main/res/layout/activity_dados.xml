@@ -94,7 +94,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="268dp"
-        android:backgroundTint="#009C3B"
+        android:backgroundTint="#FF5C00"
         android:text="CONFIRMAR"
         android:textColor="#FFFFFF"
         android:textStyle="bold"

@@ -22,23 +22,23 @@
         android:id="@+id/btEle"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FF5C00"
         android:text="ELEITORES"
         android:textColor="#FFFFFF"
-        android:textStyle="bold"
         android:textSize="18sp"
-        android:backgroundTint="#009C3B"
-        android:layout_marginBottom="20dp" />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btRes"
         android:layout_width="match_parent"
         android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FF5C00"
         android:text="RESULTADO"
         android:textColor="#FFFFFF"
-        android:textStyle="bold"
         android:textSize="18sp"
-        android:backgroundTint="#012169"
-        android:layout_marginBottom="20dp" />
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btClr"

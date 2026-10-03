@@ -38,11 +38,11 @@ class ResultadoActivity : AppCompatActivity() {
         tvTotal.text = "Pesquisas Coletadas: $total"
 
         val candidatos = listOf(
-            "LULA",
-            "RENAN SANTOS",
-            "FLÁVIO BOLSONARO",
-            "SAMARA MARTINS",
-            "RONALDO CAIADO",
+            "GENERAL GRIEVOUS",
+            "PALPATINE",
+            "NUTE GUNRAY",
+            "PADMÉ AMIDALA",
+            "JAR JAR BINKS",
             "NULO",
             "BRANCO",
             "NÃO SABE/ABSTEU"

@@ -136,7 +136,7 @@
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="52dp"
-        android:backgroundTint="#009C3B"
+        android:backgroundTint="#FF5C00"
         android:text="CONTINUAR"
         android:textColor="#FFFFFF"
         android:textStyle="bold"

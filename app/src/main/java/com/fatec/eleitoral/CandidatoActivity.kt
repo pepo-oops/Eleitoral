@@ -11,11 +11,11 @@ import androidx.core.view.WindowInsetsCompat
 
 class CandidatoActivity : AppCompatActivity() {
 
-    private lateinit var cvLula   : CardView
-    private lateinit var cvRenan  : CardView
-    private lateinit var cvFlavio : CardView
-    private lateinit var cvSamara : CardView
-    private lateinit var cvCaiado : CardView
+    private lateinit var cvGrievous   : CardView
+    private lateinit var cvPalp  : CardView
+    private lateinit var cvNute : CardView
+    private lateinit var cvPadme : CardView
+    private lateinit var cvJar : CardView
 
     private lateinit var btNulo  : Button
     private lateinit var btBranco : Button
@@ -31,21 +31,21 @@ class CandidatoActivity : AppCompatActivity() {
             insets
         }
 
-        cvLula   = findViewById(R.id.cvLula)
-        cvRenan  = findViewById(R.id.cvRenan)
-        cvFlavio = findViewById(R.id.cvFlavio)
-        cvSamara = findViewById(R.id.cvSamara)
-        cvCaiado = findViewById(R.id.cvCaiado)
+        cvGrievous   = findViewById(R.id.cvGrievous)
+        cvPalp  = findViewById(R.id.cvPalp)
+        cvNute = findViewById(R.id.cvNute)
+        cvPadme = findViewById(R.id.cvPadme)
+        cvJar = findViewById(R.id.cvJar)
 
         btNulo  = findViewById(R.id.btNulo)
         btBranco = findViewById(R.id.btBranco)
         btNsei = findViewById(R.id.btNsei)
 
-        cvLula.setOnClickListener { nextCandidato("LULA") }
-        cvRenan.setOnClickListener { nextCandidato("RENAN SANTOS") }
-        cvFlavio.setOnClickListener { nextCandidato("FLÁVIO BOLSONARO") }
-        cvSamara.setOnClickListener { nextCandidato("SAMARA MARTINS") }
-        cvCaiado.setOnClickListener { nextCandidato("RONALDO CAIADO") }
+        cvGrievous.setOnClickListener { nextCandidato("GRIEVOUS") }
+        cvPalp.setOnClickListener { nextCandidato("PALPATINE") }
+        cvNute.setOnClickListener { nextCandidato("NUTE GUNRAY") }
+        cvPadme.setOnClickListener { nextCandidato("PADMÉ AMIDALA") }
+        cvJar.setOnClickListener { nextCandidato("JAR JAR BINKS") }
 
         btNulo.setOnClickListener { nextCandidato("NULO") }
         btBranco.setOnClickListener { nextCandidato("BRANCO") }
